@@ -1,18 +1,21 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="my-video embed-responsive embed-responsive-16by9">
+    <video class="embed-responsive-item" controls>
+      <source src="videos/因為有你.mp4" type="video/mp4">
+    </video>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
+  name: 'home'
 }
 </script>
+
+<style lang="scss">
+.my-video {
+  max-width: 800px;
+  margin: auto;
+}
+</style>
+

@@ -1,29 +1,27 @@
-# myfirst-electron
+# Myfirst electron project (Windows)
 
-## Project setup
+## Install
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+## Build
+Compiles and hot-reloads for development:
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+yarn serve
 ```
 
-### Run your tests
+Compiles and minifies for production (use cmd.exe to run is good):
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+yarn build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Start window for development:
+```
+yarn start
+```
+
+Compiles window for production:
+```
+yarn dist
+```

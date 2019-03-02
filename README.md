@@ -1,4 +1,4 @@
-# Myfirst electron project (Windows)
+# My first electron project (Windows)
 
 ## Install
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "myfirst-electron",
+  "name": "my-first-electron",
   "version": "0.1.0",
   "private": true,
   "main": "main.js",
@@ -28,6 +28,6 @@
     "vue-template-compiler": "^2.5.21"
   },
   "build": {
-    "appId": "ycs77.myfirstelectron"
+    "appId": "ycs77.my-firstelectron"
   }
 }
